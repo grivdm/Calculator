@@ -1,0 +1,44 @@
+//Styles for buttons
+@import "/node_modules/bootstrap/scss/_buttons";
+
+.btn {
+  border-color: #3333331d !important;
+  width: 100%;
+  transform-style: preserve-3d;
+  vertical-align: middle;
+  text-decoration: none;
+
+  &:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: inherit;
+    border-radius: inherit;
+    box-shadow: 0 0 0 2px #3333331d, 0 0.5em 10px 0 #3333331d,
+      inset 0 -1px 7px #0000006b;
+    transform: translate3d(0, 0.33em, -1em);
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+
+  &:hover {
+    transform: translate(0, 0.05em);
+
+    &:before {
+      box-shadow: 0 0 0 2px #3333331d, 0 0.45em 10px 0 #3333331d,
+        inset 0 -1px 7px #0000006b;
+      transform: translate3d(0, 0.28em, -1em);
+    }
+  }
+  &:active {
+    transform: translate(0em, 0.34em);
+    &:before {
+      box-shadow: 0 0 0 2px #3333331d, 0 0 10px 0 #3333331d;
+      transform: translate3d(0, 0, -1em);
+    }
+  }
+}

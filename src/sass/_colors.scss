@@ -1,0 +1,7 @@
+$secondary: #c2d0dd;
+
+$custom-colors: (
+  "secondary": $secondary,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
