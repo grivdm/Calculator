@@ -86,6 +86,7 @@ const Calculator = () => {
     try {
       if (isLastOperator) {
         setDisplay(evaluate(result.slice(0, -1)));
+        setIsLastOperator(false);
       }
 
       if (result) {
