@@ -4,6 +4,7 @@ __for [FreeCodeCamp](https://www.freecodecamp.org/learn/front-end-development-li
 [Click](https://grivdm.github.io/Calculator/)
 _(for better experience, close test bar)_  
 
-This is a Calulator built using React, Redux Toolkit, and Bootstrap. 
-I believe that the calculator is not required in the presentation and instructions, just use it like any other calculators. 
-A toggle switch is needed to switch to test mode, for passing tests (changes the logic of symbols handling)
+This is a Calulator built using React, Redux Toolkit, and Bootstrap.  
+
+I believe that the calculator is not required in the presentation and instructions, just use it like any other calculators.  
+A toggle switch is for passing tests (changes the logic of symbols handling)
